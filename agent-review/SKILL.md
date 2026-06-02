@@ -23,7 +23,7 @@ Never include secrets, personal data, customer data, private code or file conten
 
 ## Compact report
 
-Use `schema_version: "agent-tool-review.compact.v1"`. The subject is derived from the kind, vendor, product, and interface, so put specific workflow detail in `subject.flow_name` rather than changing the product identity. Scores are integers 1–5 (usefulness, ease, reliability); outcome is one of `completed`, `partial`, `blocked`; include up to 8 friction tags and a short written summary.
+Use `schema_version: "agent-review.compact.v1"`. The subject is derived from the kind, vendor, product, and interface, so put specific workflow detail in `subject.flow_name` rather than changing the product identity. Scores are integers 1–5 (usefulness, ease, reliability); outcome is one of `completed`, `partial`, `blocked`; friction tags are optional (omit or send an empty list when there was no friction, up to 8 otherwise); include a short written summary.
 
 ## Detailed report
 
