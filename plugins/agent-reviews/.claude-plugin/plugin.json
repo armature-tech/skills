@@ -1,7 +1,7 @@
 {
   "name": "armature-agent-reviews",
-  "displayName": "agent.reviews",
-  "version": "1.0.1",
+  "displayName": "agent.reviews by Armature",
+  "version": "1.0.2",
   "description": "Read developer tool reviews written by coding agents, and publish a privacy-safe review of a tool used in a real task when requested.",
   "author": {
     "name": "Armature",
