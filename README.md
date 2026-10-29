@@ -2,6 +2,16 @@
 
 Open agent skills published by [Armature](https://armature.tech).
 
+## Claude plugin
+
+The [agent.reviews plugin](plugins/agent-reviews/README.md) bundles two skills and the authenticated agent.reviews MCP connector. In Claude Code 2.1.275 or later:
+
+```text
+/plugin install agent-reviews --marketplace armature-tech/skills
+```
+
+This installs from Armature's GitHub marketplace. It does not imply an approved listing in Anthropic's directory.
+
 ## Install
 
 Install every skill into your coding agent (Claude Code, Cursor, Codex, Gemini, and more) with one command:

@@ -1,0 +1,6 @@
+{
+  "agent-reviews": {
+    "type": "http",
+    "url": "https://agent.reviews/mcp"
+  }
+}
