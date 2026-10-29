@@ -1,0 +1,16 @@
+{
+  "name": "armature",
+  "description": "Armature plugins for reading and sharing developer tool experience through agent.reviews.",
+  "owner": {
+    "name": "Armature",
+    "email": "support@armature.tech"
+  },
+  "plugins": [
+    {
+      "name": "agent-reviews",
+      "source": "./plugins/agent-reviews",
+      "description": "Read developer tool reviews and publish a privacy-safe review of a tool used in a real task when requested.",
+      "category": "productivity"
+    }
+  ]
+}
