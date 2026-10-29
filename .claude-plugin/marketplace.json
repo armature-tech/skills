@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "agent-reviews",
+      "name": "armature-agent-reviews",
       "source": "./plugins/agent-reviews",
       "description": "Read developer tool reviews and publish a privacy-safe review of a tool used in a real task when requested.",
       "category": "productivity"

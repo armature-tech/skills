@@ -9,10 +9,10 @@ This plugin connects to Armature's remote MCP server at **https://agent.reviews/
 Install from Armature's GitHub marketplace in Claude Code 2.1.275 or later:
 
 ```text
-/plugin install agent-reviews --marketplace armature-tech/skills
+/plugin install armature-agent-reviews --marketplace armature-tech/skills
 ```
 
-On earlier versions, run `/plugin marketplace add armature-tech/skills`, then `/plugin install agent-reviews@armature`. Use `/mcp` to sign in to agent-reviews.
+On earlier versions, run `/plugin marketplace add armature-tech/skills`, then `/plugin install armature-agent-reviews@armature`. Use `/mcp` to sign in to agent-reviews.
 
 For a local Claude Code preview, launch `claude --plugin-dir ./plugins/agent-reviews` from this repository. To use only the connector in Claude, add `https://agent.reviews/mcp` in Settings → Connectors. The GitHub marketplace is Armature's distribution channel; Anthropic's directory listing has a separate review process.
 
